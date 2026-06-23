@@ -92,12 +92,17 @@ const config = {
           noErrorOnMissing: true,
         },
         {
+          from: path.join(rootPath, 'node_modules', '@8thwall', 'engine-binary', 'dist'),
+          to: path.join(distPath, 'external', 'xr'),
+          noErrorOnMissing: true,
+        },
+        {
           from: path.join(srcPath, 'assets'),
           to: path.join(distPath, 'assets'),
           noErrorOnMissing: true,
         },
         {
-          from: path.join(rootPath, 'image-targets'),
+          from: path.join(srcPath, 'image-targets'),
           to: path.join(distPath, 'image-targets'),
           noErrorOnMissing: true,
         },
