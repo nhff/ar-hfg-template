@@ -15,17 +15,21 @@
     <meta itemprop="description" content="">
     <meta property="og:description" content="">
     <meta name="twitter:description" content="">
-    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-    <script>eruda.init();</script>
     <script crossorigin="anonymous" src="./external/scripts/8frame-1.3.0.min.js"></script>
     <script crossorigin="anonymous" src="./external/xrextras/xrextras.js"></script>
     <script crossorigin="anonymous" src="./external/landing-page/landing-page.js"></script>
-    <script crossorigin="anonymous" src="./external/xr/xr.js" data-preload-chunks="face, slam" async="true">
+    <script crossorigin="anonymous" src="./external/xr/xr.js" data-preload-chunks="face, slam" async="true"></script>
+
+    <!-- Eruda Script, activate for debugging in mobile browsers -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+        <script>eruda.init();</script>
+    -->
+
     </script>
 
     <!-- Copyright (c) 2022 8th Wall, Inc. -->
     <!-- head.html is optional; elements will be added to your html head before app.js is loaded. -->
-    <!-- working on democracy -->
 
     <!-- Use "8thwall:" meta tags to hook into 8th Wall's build process and developer tools. -->
     <meta name="8thwall:renderer" content="aframe:1.3.0"/>
@@ -70,17 +74,17 @@
 
         <a-entity
                 light="
-      type: directional;
-      intensity: 2;
-      castShadow: true;
-     shadowMapHeight:2048;
-      shadowMapWidth:2048;
-      shadowCameraTop: 80;
-      shadowCameraBottom: -80;
-      shadowCameraRight: 80;
-      shadowCameraLeft: -80;
-      target: #group;
-      shadowRadius: 12"
+                    type: directional;
+                    intensity: 2;
+                    castShadow: true;
+                    shadowMapHeight:2048;
+                    shadowMapWidth:2048;
+                    shadowCameraTop: 80;
+                    shadowCameraBottom: -80;
+                    shadowCameraRight: 80;
+                    shadowCameraLeft: -80;
+                    target: #group;
+                    shadowRadius: 12"
                 xrextras-attach="target: group; offset: 1 50 15;"
                 shadow>
         </a-entity>
@@ -108,12 +112,11 @@
         ></a-plane>
 -->
 
+    <!-- Image Tracking -->
     <xrextras-named-image-target name="video-target">
-        <a-box color="red" scale="0.2 0.2 0.2" position="0 0 0.1"></a-box>
         <a-entity xrextras-play-video="video: #jelly-video; thumb: #jelly-thumb; canstop: true"
                   geometry="primitive: plane; height: 1; width: 0.79;"></a-entity>
     </xrextras-named-image-target>
-
 
     </a-scene>
 </body>

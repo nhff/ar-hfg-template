@@ -24,32 +24,3 @@ AFRAME.registerComponent('no-frustrum-cull', {
   },
 })
 
-window.addEventListener('xrimagefound', (e) => {
-  console.log('IMAGE FOUND:', JSON.stringify(e.detail))
-})
-window.addEventListener('xrimageupdated', (e) => {
-  console.log('IMAGE UPDATED:', JSON.stringify(e.detail))
-})
-window.addEventListener('xrimagelost', (e) => {
-  console.log('IMAGE LOST')
-})
-
-window.addEventListener('realityerror', (e) => {
-  console.error('REALITY ERROR (window):', e.detail && e.detail.error)
-  if (e.detail && e.detail.error) {
-    console.error('Message:', e.detail.error.message)
-    console.error('Stack:', e.detail.error.stack)
-  }
-})
-
-document.addEventListener('DOMContentLoaded', () => {
-  const scene = document.querySelector('a-scene')
-  if (scene) {
-    scene.addEventListener('realityerror', (e) => {
-      console.error('REALITY ERROR (scene):', e.detail && e.detail.error)
-      if (e.detail && e.detail.error) {
-        console.error('Message:', e.detail.error.message)
-      }
-    })
-  }
-})
