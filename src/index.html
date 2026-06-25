@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-
     <title>8Wall AFrame Template</title>
     <meta itemprop="name" content="8Wall AFrame Template">
     <meta name="twitter:title" content="8Wall AFrame Template">
@@ -39,7 +38,6 @@
     <!-- Other external scripts and meta tags can also be added. -->
     <script src="./external/scripts/aframe-extras-6.1.1.min.js"></script>
 
-
 </head>
 
 <body>
@@ -53,7 +51,7 @@
         xrextras-runtime-error
         renderer="colorManagement: false"
         no-frustrum-cull
-        xrweb="allowedDevices: any;"
+        xrweb="allowedDevices: any; disableWorldTracking: false"
 >
 
 
@@ -61,8 +59,7 @@
     <a-assets>
         <a-asset-item id="fish-1" src="assets/fish1.glb"></a-asset-item>
         <img id="jelly-thumb" src="assets/video-target.jpg">
-        <video id="jelly-video" autoplay muted crossorigin="anonymous" loop="true" src="assets/jellyfish-video.mp4">
-        </video>
+        <video id="jelly-video" autoplay muted crossorigin="anonymous" loop="true" src="assets/jellyfish-video.mp4"></video>
     </a-assets>
 
         <a-camera
@@ -91,7 +88,8 @@
 
         <a-light type="ambient" intensity="0.7"></a-light>
 
-    <!--
+
+    <!-- example 3D model (fish) -->
         <a-entity
                 gltf-model="#fish-1"
                 scale="14 14 -14"
@@ -101,6 +99,7 @@
                 shadow>
         </a-entity>
 
+    <!-- example primitive (plane) as ground -->
         <a-plane
                 id="ground"
                 rotation="-90 0 0"
@@ -110,9 +109,9 @@
                 material="shader: shadow"
                 shadow
         ></a-plane>
--->
 
-    <!-- Image Tracking -->
+
+    <!-- example Image Tracking -->
     <xrextras-named-image-target name="video-target">
         <a-entity xrextras-play-video="video: #jelly-video; thumb: #jelly-thumb; canstop: true"
                   geometry="primitive: plane; height: 1; width: 0.79;"></a-entity>
