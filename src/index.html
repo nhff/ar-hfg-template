@@ -59,9 +59,31 @@
 
     <!-- We can define assets here to be loaded when A-Frame initializes -->
     <a-assets>
-        <a-asset-item id="fish-1" src="assets/fish1.glb"></a-asset-item>
-        <img id="jelly-thumb" src="assets/video-target.jpg">
-        <video id="jelly-video" autoplay muted crossorigin="anonymous" loop="true" src="assets/jellyfish-video.mp4"></video>
+        <a-asset-item id="stick01" src="assets/P26_T04_LS_AESPA.1_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick02" src="assets/P26_T04_LS_AESPA.1_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick03" src="assets/P26_T04_LS_AESPA.1_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick04" src="assets/P26_T04_LS_AESPA.1_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick05" src="assets/P26_T04_LS_AESPA.2_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick06" src="assets/P26_T04_LS_B.A.P_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick07" src="assets/P26_T04_LS_BILLIE_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick08" src="assets/P26_T04_LS_BLACKPINK_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick09" src="assets/P26_T04_LS_BOA_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick10" src="assets/P26_T04_LS_BTS_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick11" src="assets/P26_T04_LS_EVNNE_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick12" src="assets/P26_T04_LS_EXO_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick13" src="assets/P26_T04_LS_GFRIEND_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick14" src="assets/P26_T04_LS_GIRLSGENERATION_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick15" src="assets/P26_T04_LS_GOT7_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick16" src="assets/P26_T04_LS_I-DLE_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick17" src="assets/P26_T04_LS_IU_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick18" src="assets/P26_T04_LS_KISSOFLIFE_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick19" src="assets/P26_T04_LS_LESSERAFIM_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick20" src="assets/P26_T04_LS_MAMAMOO_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick21" src="assets/P26_T04_LS_NEWJEANS.glb"></a-asset-item>
+        <a-asset-item id="stick22" src="assets/P26_T04_LS_NEWJEANS_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick23" src="assets/P26_T04_LS_NTX_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick24" src="assets/P26_T04_LS_POW_LIT.glb"></a-asset-item>
+        <a-asset-item id="stick25" src="assets/P26_T04_LS_SEVENTEEN_LIT.glb"></a-asset-item>
     </a-assets>
 
         <a-camera
@@ -90,13 +112,11 @@
 
         <a-light type="ambient" intensity="0.7"></a-light>
 
-
-    <!-- example 3D model (fish) -->
         <a-entity
-                gltf-model="#fish-1"
-                scale="14 14 -14"
-                rotation="0 90 0"
-                position="-4 18 -12"
+                gltf-model="#stick01"
+                scale="10 10 10"
+                rotation="0 0 0"
+                position="0 5 -5"
                 animation-mixer="timeScale: 1.1"
                 shadow>
         </a-entity>
@@ -113,11 +133,7 @@
         ></a-plane>
 
 
-    <!-- example Image Tracking -->
-    <xrextras-named-image-target name="video-target">
-        <a-entity xrextras-play-video="video: #jelly-video; thumb: #jelly-thumb; canstop: true"
-                  geometry="primitive: plane; height: 1; width: 0.79;"></a-entity>
-    </xrextras-named-image-target>
+
 
     </a-scene>
 </body>
