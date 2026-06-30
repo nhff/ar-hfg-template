@@ -1,14 +1,5 @@
 import css from './index.css'
 
-const onxrloaded = () => {
-  console.log('XR8 loaded, configuring image targets...')
-  XR8.XrController.configure({
-    imageTargetData: [
-      require('./image-targets/video-target.json'),
-    ],
-  })
-  console.log('Image target configured')
-}
 
 window.XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
 AFRAME.registerComponent('no-frustrum-cull', {
