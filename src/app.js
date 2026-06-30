@@ -1,26 +1,27 @@
-import css from './index.css'
+import './index.css'
+import {
+  registerDmsMirrorShards,
+  setupDmsWorldLifecycle,
+  showRuntimeWarning,
+  wireDmsControls,
+} from './integrations/dms/mirror-shards'
 
-const onxrloaded = () => {
-  console.log('XR8 loaded, configuring image targets...')
-  XR8.XrController.configure({
-    imageTargetData: [
-      require('./image-targets/video-target.json'),
-    ],
-  })
-  console.log('Image target configured')
+setupDmsWorldLifecycle()
+
+function boot() {
+  if (window.AFRAME) {
+    registerDmsMirrorShards()
+    return
+  }
+
+  console.warn('A-Frame runtime was not available when bundle.js ran')
+  showRuntimeWarning('A-Frame runtime did not load. Build the project, serve it over HTTPS, and test on a supported mobile browser.')
 }
 
-window.XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
-AFRAME.registerComponent('no-frustrum-cull', {
-  init() {
-    const models = this.el.querySelectorAll('[gltf-model]')
-    models.forEach((el) => {
-      el.addEventListener('model-loaded', () => {
-        el.object3D.traverse((object) => {
-          object.frustumCulled = false
-        })
-      })
-    })
-  },
-})
+boot()
 
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', wireDmsControls, { once: true })
+} else {
+  wireDmsControls()
+}

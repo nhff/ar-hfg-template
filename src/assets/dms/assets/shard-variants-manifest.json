@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Blender MCP-exported shard variant JSON for web AR illustration panels.",
+  "variants": {
+    "impact_star": {
+      "source": "E:\\UE_Projekte\\ar\\Codex_AR_Handoff\\DemocracyMirrorShards\\BlenderSource\\touch_wave_variant_1_impact_star.blend",
+      "output": "shards-impact-star.json",
+      "count": 112,
+      "bounds": {
+        "minX": -3.58341,
+        "maxX": 3.58433,
+        "minY": 0.01525,
+        "maxY": 4.03646,
+        "minDepth": -0.14482,
+        "maxDepth": 0.12974
+      },
+      "written": [
+        "C:\\Users\\wzc98\\Documents\\AR\\democracy-mirror-shards-pages\\assets\\shards-impact-star.json",
+        "C:\\Users\\wzc98\\Documents\\AR\\web_ar_preview\\assets\\shards-impact-star.json"
+      ]
+    },
+    "diagonal_shear": {
+      "source": "E:\\UE_Projekte\\ar\\Codex_AR_Handoff\\DemocracyMirrorShards\\BlenderSource\\touch_wave_variant_2_diagonal_shear.blend",
+      "output": "shards-diagonal-shear.json",
+      "count": 106,
+      "bounds": {
+        "minX": -3.58207,
+        "maxX": 3.58433,
+        "minY": 0.01313,
+        "maxY": 4.036,
+        "minDepth": -0.14526,
+        "maxDepth": 0.12491
+      },
+      "written": [
+        "C:\\Users\\wzc98\\Documents\\AR\\democracy-mirror-shards-pages\\assets\\shards-diagonal-shear.json",
+        "C:\\Users\\wzc98\\Documents\\AR\\web_ar_preview\\assets\\shards-diagonal-shear.json"
+      ]
+    },
+    "asymmetric_web": {
+      "source": "E:\\UE_Projekte\\ar\\Codex_AR_Handoff\\DemocracyMirrorShards\\BlenderSource\\touch_wave_variant_3_asymmetric_web.blend",
+      "output": "shards-asymmetric-web.json",
+      "count": 120,
+      "bounds": {
+        "minX": -3.58196,
+        "maxX": 3.58433,
+        "minY": 0.01567,
+        "maxY": 4.03433,
+        "minDepth": -0.14299,
+        "maxDepth": 0.11149
+      },
+      "written": [
+        "C:\\Users\\wzc98\\Documents\\AR\\democracy-mirror-shards-pages\\assets\\shards-asymmetric-web.json",
+        "C:\\Users\\wzc98\\Documents\\AR\\web_ar_preview\\assets\\shards-asymmetric-web.json"
+      ]
+    }
+  }
+}

@@ -7,8 +7,23 @@ const distPath = path.join(rootPath, 'dist')
 const srcPath = path.join(rootPath, 'src')
 
 const ATTRIBUTES_TO_EXPAND = [
-  'src', 'gltf-model', 'cover-image-url', 'footer-image-url', 'watermark-image-url',
+  'src', 'href', 'gltf-model', 'cover-image-url', 'footer-image-url', 'watermark-image-url',
 ]
+
+const NON_BUNDLED_HTML_ASSET = /\.svg(?:[?#].*)?$/i
+const EXTERNAL_OR_INLINE_URL = /^(?:https?:|data:|blob:|#)/i
+
+const shouldExpandHtmlAttribute = (tag, attribute, attributes = {}) => {
+  const value = attributes[attribute]
+  if (!value || typeof value !== 'string') return false
+  if (tag === 'script' && attribute === 'src') return false
+  if (attribute === 'href' && String(attributes.rel || '').toLowerCase().split(/\s+/).includes('ar')) {
+    return false
+  }
+  if (NON_BUNDLED_HTML_ASSET.test(value)) return false
+  if (EXTERNAL_OR_INLINE_URL.test(value)) return false
+  return true
+}
 
 const makeJsLoader = () => ({
   test: /\.js$/,
@@ -22,21 +37,10 @@ const makeJsLoader = () => ({
   exclude: /node_modules/,
 })
 
-const makeTsLoader = () => ({
-  test: /\.ts$/,
-  loader: 'ts-loader',
-  exclude: /node_modules/,
-})
-
 const makeCssLoader = () => ({
   test: /\.css$/,
   exclude: /\/assets\//,
   use: ['style-loader', 'css-loader'],
-})
-
-const makeSassLoader = () => ({
-  test: /\.scss$/,
-  use: ['style-loader', 'css-loader', 'sass-loader'],
 })
 
 const makeAssetLoader = () => ({
@@ -64,6 +68,7 @@ const makeDefaultHtmlLoader = () => ({
             tag: '*',
             attribute: attr,
             type: 'src',
+            filter: shouldExpandHtmlAttribute,
           })),
         ],
       },
@@ -71,12 +76,13 @@ const makeDefaultHtmlLoader = () => ({
   },
 })
 
-const config = {
+module.exports = {
   entry: path.join(srcPath, 'app.js'),
   output: {
     filename: 'bundle.js',
     path: distPath,
     publicPath: '/',
+    clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -102,20 +108,19 @@ const config = {
           noErrorOnMissing: true,
         },
         {
-          from: path.join(srcPath, 'image-targets'),
-          to: path.join(distPath, 'image-targets'),
+          from: path.join(rootPath, '_headers'),
+          to: path.join(distPath, '_headers'),
+          toType: 'file',
           noErrorOnMissing: true,
         },
       ],
     }),
   ],
-  resolve: {extensions: ['.ts', '.js']},
+  resolve: { extensions: ['.ts', '.js'] },
   module: {
     rules: [
       makeJsLoader(),
-      makeTsLoader(),
       makeCssLoader(),
-      makeSassLoader(),
       makeAssetLoader(),
       makeDefaultHtmlLoader(),
     ],
@@ -127,6 +132,7 @@ const config = {
     compress: true,
     hot: true,
     liveReload: false,
+    allowedHosts: 'all',
     headers: {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
@@ -140,5 +146,3 @@ const config = {
     },
   },
 }
-
-module.exports = config

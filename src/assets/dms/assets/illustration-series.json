@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "bahnhofstrasse10-democracy-v3",
+  "title": "Bahnhofstrasse 10 Democracy Illustration Series",
+  "physicalHeightMeters": 1.86,
+  "streetPanelSpacingMeters": 0.48,
+  "streetInstallation": {
+    "address": "Bahnhofstrasse 10",
+    "layout": "linear-street-row",
+    "direction": "left-to-right",
+    "startPanelNumber": "01",
+    "panelSpacingMeters": 0.48,
+    "panelOrder": [
+      "01_equal_access",
+      "02_public_assembly",
+      "03_collective_departure",
+      "04_route_to_power",
+      "05_shared_timetable",
+      "06_everyday_public_right"
+    ]
+  },
+  "panels": [
+    {
+      "id": "01_equal_access",
+      "number": "01",
+      "title": "Equal Access",
+      "variant": "impact_star",
+      "src": "./assets/illustrations/01_equal_access.png"
+    },
+    {
+      "id": "02_public_assembly",
+      "number": "02",
+      "title": "Public Assembly",
+      "variant": "diagonal_shear",
+      "src": "./assets/illustrations/02_public_assembly.png"
+    },
+    {
+      "id": "03_collective_departure",
+      "number": "03",
+      "title": "Collective Departure",
+      "variant": "asymmetric_web",
+      "src": "./assets/illustrations/03_collective_departure.png"
+    },
+    {
+      "id": "04_route_to_power",
+      "number": "04",
+      "title": "Route to Power",
+      "variant": "impact_star",
+      "src": "./assets/illustrations/04_route_to_power.png"
+    },
+    {
+      "id": "05_shared_timetable",
+      "number": "05",
+      "title": "Shared Timetable",
+      "variant": "diagonal_shear",
+      "src": "./assets/illustrations/05_shared_timetable.png"
+    },
+    {
+      "id": "06_everyday_public_right",
+      "number": "06",
+      "title": "Everyday Public Right",
+      "variant": "asymmetric_web",
+      "src": "./assets/illustrations/06_everyday_public_right.png"
+    }
+  ]
+}

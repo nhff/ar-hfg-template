@@ -1,0 +1,3410 @@
+{
+  "schemaVersion": 2,
+  "variant": "diagonal_shear",
+  "source": "E:\\UE_Projekte\\ar\\Codex_AR_Handoff\\DemocracyMirrorShards\\BlenderSource\\touch_wave_variant_2_diagonal_shear.blend",
+  "frame": 1,
+  "units": "blender_world_projected_xz",
+  "count": 106,
+  "bounds": {
+    "minX": -3.58207,
+    "maxX": 3.58433,
+    "minY": 0.01313,
+    "maxY": 4.036,
+    "minDepth": -0.14526,
+    "maxDepth": 0.12491
+  },
+  "shards": [
+    {
+      "index": 0,
+      "name": "global fracture mirror shard 000",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.02722,
+          0.01916
+        ],
+        [
+          -1.50733,
+          0.39688
+        ],
+        [
+          -1.11595,
+          0.01329
+        ],
+        [
+          -2.0318,
+          0.01329
+        ]
+      ],
+      "center": [
+        -1.67057,
+        0.11066
+      ],
+      "depth": 0.06951,
+      "width": 0.91584,
+      "height": 0.38358,
+      "area": 0.17631,
+      "seed": 0.295929
+    },
+    {
+      "index": 1,
+      "name": "global fracture mirror shard 001",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.81124,
+          0.37897
+        ],
+        [
+          -2.09508,
+          0.01567
+        ],
+        [
+          -3.07822,
+          0.01567
+        ]
+      ],
+      "center": [
+        -2.32818,
+        0.13677
+      ],
+      "depth": 0.03436,
+      "width": 1.26698,
+      "height": 0.3633,
+      "area": 0.178588,
+      "seed": 0.52701
+    },
+    {
+      "index": 2,
+      "name": "global fracture mirror shard 002",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.89351,
+          0.35074
+        ],
+        [
+          3.03881,
+          0.17545
+        ],
+        [
+          3.2456,
+          0.12121
+        ],
+        [
+          3.43423,
+          0.01665
+        ],
+        [
+          1.75853,
+          0.01665
+        ]
+      ],
+      "center": [
+        2.67414,
+        0.13614
+      ],
+      "depth": 0.08501,
+      "width": 1.67569,
+      "height": 0.33409,
+      "area": 0.341886,
+      "seed": 0.323097
+    },
+    {
+      "index": 3,
+      "name": "global fracture mirror shard 003",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.45236,
+          0.70605
+        ],
+        [
+          -3.13521,
+          0.02462
+        ],
+        [
+          -3.17528,
+          0.01313
+        ],
+        [
+          -3.47965,
+          0.01313
+        ]
+      ],
+      "center": [
+        -3.06063,
+        0.18923
+      ],
+      "depth": -0.12259,
+      "width": 1.02729,
+      "height": 0.69292,
+      "area": 0.115182,
+      "seed": 0.711381
+    },
+    {
+      "index": 4,
+      "name": "global fracture mirror shard 004",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.15933,
+          0.02014
+        ],
+        [
+          1.38389,
+          0.59599
+        ],
+        [
+          1.56493,
+          0.02014
+        ]
+      ],
+      "center": [
+        1.36939,
+        0.21209
+      ],
+      "depth": -0.08964,
+      "width": 0.40561,
+      "height": 0.57585,
+      "area": 0.116784,
+      "seed": 0.263789
+    },
+    {
+      "index": 5,
+      "name": "global fracture mirror shard 005",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -3.5814,
+          0.27465
+        ],
+        [
+          -2.4385,
+          0.73641
+        ],
+        [
+          -3.50676,
+          0.01586
+        ],
+        [
+          -3.5814,
+          0.01586
+        ]
+      ],
+      "center": [
+        -3.27702,
+        0.26069
+      ],
+      "depth": 0.04868,
+      "width": 1.1429,
+      "height": 0.72055,
+      "area": 0.174776,
+      "seed": 0.55413
+    },
+    {
+      "index": 6,
+      "name": "global fracture mirror shard 006",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.86319,
+          0.3796
+        ],
+        [
+          3.12031,
+          0.76151
+        ],
+        [
+          3.58388,
+          0.15302
+        ],
+        [
+          3.58388,
+          0.01609
+        ],
+        [
+          3.519,
+          0.01609
+        ]
+      ],
+      "center": [
+        3.33406,
+        0.26526
+      ],
+      "depth": -0.02823,
+      "width": 0.72069,
+      "height": 0.74543,
+      "area": 0.227885,
+      "seed": 0.945294
+    },
+    {
+      "index": 7,
+      "name": "global fracture mirror shard 007",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.54128,
+          0.71364
+        ],
+        [
+          1.30728,
+          0.48563
+        ],
+        [
+          1.12506,
+          0.01837
+        ],
+        [
+          0.92668,
+          0.01837
+        ]
+      ],
+      "center": [
+        0.97507,
+        0.309
+      ],
+      "depth": 0.05291,
+      "width": 0.766,
+      "height": 0.69527,
+      "area": 0.268697,
+      "seed": 0.507693
+    },
+    {
+      "index": 8,
+      "name": "global fracture mirror shard 008",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.06479,
+          0.02476
+        ],
+        [
+          -1.46707,
+          0.41903
+        ],
+        [
+          -1.35247,
+          0.5023
+        ],
+        [
+          -1.10009,
+          0.57466
+        ],
+        [
+          -1.0115,
+          0.02476
+        ]
+      ],
+      "center": [
+        -1.19918,
+        0.3091
+      ],
+      "depth": -0.06766,
+      "width": 0.45557,
+      "height": 0.54991,
+      "area": 0.124662,
+      "seed": 0.338983
+    },
+    {
+      "index": 9,
+      "name": "global fracture mirror shard 009",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.97741,
+          0.02375
+        ],
+        [
+          -1.06731,
+          0.5818
+        ],
+        [
+          -0.52802,
+          0.73644
+        ],
+        [
+          -0.61553,
+          0.02375
+        ]
+      ],
+      "center": [
+        -0.79707,
+        0.34144
+      ],
+      "depth": -0.05847,
+      "width": 0.53929,
+      "height": 0.71269,
+      "area": 0.286383,
+      "seed": 0.571349
+    },
+    {
+      "index": 10,
+      "name": "global fracture mirror shard 010",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.86842,
+          0.37831
+        ],
+        [
+          1.90945,
+          0.47988
+        ],
+        [
+          2.8969,
+          0.2209
+        ]
+      ],
+      "center": [
+        2.22492,
+        0.3597
+      ],
+      "depth": 0.04839,
+      "width": 1.02848,
+      "height": 0.25898,
+      "area": 0.055461,
+      "seed": 0.918802
+    },
+    {
+      "index": 11,
+      "name": "global fracture mirror shard 011",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.49132,
+          0.74453
+        ],
+        [
+          -0.15139,
+          0.84201
+        ],
+        [
+          0.00305,
+          0.02593
+        ],
+        [
+          -0.57956,
+          0.02593
+        ]
+      ],
+      "center": [
+        -0.30481,
+        0.4096
+      ],
+      "depth": -0.06179,
+      "width": 0.5826,
+      "height": 0.81608,
+      "area": 0.355562,
+      "seed": 0.342212
+    },
+    {
+      "index": 12,
+      "name": "global fracture mirror shard 012",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.12239,
+          0.843
+        ],
+        [
+          -0.10121,
+          0.84907
+        ],
+        [
+          0.37759,
+          0.03066
+        ],
+        [
+          0.03134,
+          0.03066
+        ]
+      ],
+      "center": [
+        0.04633,
+        0.43835
+      ],
+      "depth": -0.06309,
+      "width": 0.49998,
+      "height": 0.81841,
+      "area": 0.150758,
+      "seed": 0.872621
+    },
+    {
+      "index": 13,
+      "name": "global fracture mirror shard 013",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.41012,
+          0.0202
+        ],
+        [
+          -0.08296,
+          0.86303
+        ],
+        [
+          0.10552,
+          0.91708
+        ],
+        [
+          0.67992,
+          0.40871
+        ],
+        [
+          0.89528,
+          0.0202
+        ]
+      ],
+      "center": [
+        0.40157,
+        0.44584
+      ],
+      "depth": -0.09444,
+      "width": 0.97824,
+      "height": 0.89688,
+      "area": 0.367154,
+      "seed": 0.279223
+    },
+    {
+      "index": 14,
+      "name": "global fracture mirror shard 014",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.8976,
+          0.50358
+        ],
+        [
+          2.02534,
+          0.81974
+        ],
+        [
+          3.22268,
+          0.15604
+        ]
+      ],
+      "center": [
+        2.38187,
+        0.49312
+      ],
+      "depth": -0.06856,
+      "width": 1.32508,
+      "height": 0.6637,
+      "area": 0.231665,
+      "seed": 0.860831
+    },
+    {
+      "index": 15,
+      "name": "global fracture mirror shard 015",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.40401,
+          0.63463
+        ],
+        [
+          1.56703,
+          1.05264
+        ],
+        [
+          1.98051,
+          0.82345
+        ],
+        [
+          1.66056,
+          0.03156
+        ],
+        [
+          1.59361,
+          0.03156
+        ]
+      ],
+      "center": [
+        1.64114,
+        0.51477
+      ],
+      "depth": -0.00207,
+      "width": 0.57649,
+      "height": 1.02108,
+      "area": 0.323342,
+      "seed": 0.185588
+    },
+    {
+      "index": 16,
+      "name": "global fracture mirror shard 016",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.3813,
+          0.75394
+        ],
+        [
+          -2.35799,
+          0.76966
+        ],
+        [
+          -1.47527,
+          1.1263
+        ],
+        [
+          -2.74441,
+          0.13973
+        ],
+        [
+          -3.09854,
+          0.03819
+        ]
+      ],
+      "center": [
+        -2.4115,
+        0.56556
+      ],
+      "depth": -0.03832,
+      "width": 1.62328,
+      "height": 1.08812,
+      "area": 0.303741,
+      "seed": 0.588186
+    },
+    {
+      "index": 17,
+      "name": "global fracture mirror shard 017",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.86696,
+          0.89316
+        ],
+        [
+          -2.01102,
+          0.06195
+        ],
+        [
+          -1.36114,
+          0.89377
+        ]
+      ],
+      "center": [
+        -1.41304,
+        0.61629
+      ],
+      "depth": -0.05626,
+      "width": 1.14406,
+      "height": 0.83182,
+      "area": 0.205729,
+      "seed": 0.94773
+    },
+    {
+      "index": 18,
+      "name": "global fracture mirror shard 018",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.73104,
+          0.67044
+        ],
+        [
+          -2.77023,
+          0.62753
+        ],
+        [
+          -3.57865,
+          0.30091
+        ],
+        [
+          -3.57865,
+          1.10591
+        ]
+      ],
+      "center": [
+        -3.16464,
+        0.6762
+      ],
+      "depth": -0.07208,
+      "width": 0.84761,
+      "height": 0.80501,
+      "area": 0.35211,
+      "seed": 0.99426
+    },
+    {
+      "index": 19,
+      "name": "global fracture mirror shard 019",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.70091,
+          0.15167
+        ],
+        [
+          -1.42246,
+          1.14547
+        ],
+        [
+          -1.08342,
+          1.28245
+        ],
+        [
+          -1.75497,
+          0.42291
+        ]
+      ],
+      "center": [
+        -1.74044,
+        0.75062
+      ],
+      "depth": -0.06006,
+      "width": 1.61749,
+      "height": 1.13078,
+      "area": 0.396368,
+      "seed": 0.233336
+    },
+    {
+      "index": 20,
+      "name": "global fracture mirror shard 020",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.12185,
+          0.92905
+        ],
+        [
+          0.35781,
+          0.99671
+        ],
+        [
+          0.65868,
+          0.45394
+        ]
+      ],
+      "center": [
+        0.37945,
+        0.79323
+      ],
+      "depth": -0.05104,
+      "width": 0.53683,
+      "height": 0.54277,
+      "area": 0.074216,
+      "seed": 0.800606
+    },
+    {
+      "index": 21,
+      "name": "global fracture mirror shard 021",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          3.13819,
+          0.79417
+        ],
+        [
+          3.58433,
+          1.45684
+        ],
+        [
+          3.58433,
+          0.20855
+        ]
+      ],
+      "center": [
+        3.43562,
+        0.81986
+      ],
+      "depth": 0.06043,
+      "width": 0.44614,
+      "height": 1.24829,
+      "area": 0.278459,
+      "seed": 0.361539
+    },
+    {
+      "index": 22,
+      "name": "global fracture mirror shard 022",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.31085,
+          0.54759
+        ],
+        [
+          -0.4771,
+          1.15334
+        ],
+        [
+          -0.52377,
+          0.77328
+        ]
+      ],
+      "center": [
+        -0.77057,
+        0.82474
+      ],
+      "depth": -0.14346,
+      "width": 0.83375,
+      "height": 0.60575,
+      "area": 0.144304,
+      "seed": 0.949075
+    },
+    {
+      "index": 23,
+      "name": "global fracture mirror shard 023",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.12244,
+          0.57422
+        ],
+        [
+          0.52682,
+          0.75152
+        ],
+        [
+          0.38617,
+          1.00526
+        ],
+        [
+          1.0501,
+          1.19564
+        ]
+      ],
+      "center": [
+        0.77138,
+        0.88166
+      ],
+      "depth": 0.09634,
+      "width": 0.73627,
+      "height": 0.62142,
+      "area": 0.276272,
+      "seed": 0.841479
+    },
+    {
+      "index": 24,
+      "name": "global fracture mirror shard 024",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.15884,
+          0.57958
+        ],
+        [
+          1.08714,
+          1.1955
+        ],
+        [
+          1.24084,
+          1.23957
+        ],
+        [
+          1.53508,
+          1.07647
+        ],
+        [
+          1.32233,
+          0.53092
+        ]
+      ],
+      "center": [
+        1.26885,
+        0.92441
+      ],
+      "depth": 0.05116,
+      "width": 0.44793,
+      "height": 0.70865,
+      "area": 0.202466,
+      "seed": 0.428985
+    },
+    {
+      "index": 25,
+      "name": "global fracture mirror shard 025",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          3.04611,
+          1.35487
+        ],
+        [
+          2.39879,
+          0.64397
+        ],
+        [
+          2.028,
+          0.8495
+        ],
+        [
+          2.07218,
+          0.95883
+        ]
+      ],
+      "center": [
+        2.38627,
+        0.95179
+      ],
+      "depth": -0.13773,
+      "width": 1.01811,
+      "height": 0.7109,
+      "area": 0.242813,
+      "seed": 0.180217
+    },
+    {
+      "index": 26,
+      "name": "global fracture mirror shard 026",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.72815,
+          1.28745
+        ],
+        [
+          -2.65955,
+          0.67155
+        ],
+        [
+          -2.71444,
+          0.64938
+        ],
+        [
+          -2.04,
+          1.38789
+        ]
+      ],
+      "center": [
+        -2.28554,
+        0.99907
+      ],
+      "depth": 0.05035,
+      "width": 0.98629,
+      "height": 0.73852,
+      "area": 0.155598,
+      "seed": 0.448497
+    },
+    {
+      "index": 27,
+      "name": "global fracture mirror shard 027",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.48,
+          0.97744
+        ],
+        [
+          -2.73571,
+          0.69744
+        ],
+        [
+          -3.56932,
+          1.12572
+        ],
+        [
+          -3.56932,
+          1.12763
+        ],
+        [
+          -3.47057,
+          1.15972
+        ]
+      ],
+      "center": [
+        -3.16498,
+        1.01759
+      ],
+      "depth": -0.04324,
+      "width": 1.08932,
+      "height": 0.46228,
+      "area": 0.197396,
+      "seed": 0.019474
+    },
+    {
+      "index": 28,
+      "name": "global fracture mirror shard 028",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.33147,
+          1.02248
+        ],
+        [
+          -0.48526,
+          0.78828
+        ],
+        [
+          -0.43757,
+          1.17663
+        ],
+        [
+          0.04976,
+          1.5307
+        ]
+      ],
+      "center": [
+        -0.1354,
+        1.12952
+      ],
+      "depth": 0.00606,
+      "width": 0.81673,
+      "height": 0.74242,
+      "area": 0.326715,
+      "seed": 0.963942
+    },
+    {
+      "index": 29,
+      "name": "global fracture mirror shard 029",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.58256,
+          0.55191
+        ],
+        [
+          2.42455,
+          0.6395
+        ],
+        [
+          3.43279,
+          1.74678
+        ],
+        [
+          3.55142,
+          1.66676
+        ]
+      ],
+      "center": [
+        2.99783,
+        1.15124
+      ],
+      "depth": 0.06739,
+      "width": 1.12687,
+      "height": 1.19487,
+      "area": 0.236522,
+      "seed": 0.93056
+    },
+    {
+      "index": 30,
+      "name": "global fracture mirror shard 030",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.84602,
+          0.41346
+        ],
+        [
+          2.60058,
+          0.54951
+        ],
+        [
+          3.56496,
+          1.6592
+        ],
+        [
+          3.58368,
+          1.64658
+        ],
+        [
+          3.58368,
+          1.50913
+        ]
+      ],
+      "center": [
+        3.23578,
+        1.15557
+      ],
+      "depth": -0.09471,
+      "width": 0.9831,
+      "height": 1.24575,
+      "area": 0.268679,
+      "seed": 0.326631
+    },
+    {
+      "index": 31,
+      "name": "global fracture mirror shard 031",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.25858,
+          1.23143
+        ],
+        [
+          -2.46814,
+          1.00196
+        ],
+        [
+          -3.40139,
+          1.17369
+        ],
+        [
+          -3.09894,
+          1.27196
+        ]
+      ],
+      "center": [
+        -2.80676,
+        1.16976
+      ],
+      "depth": 0.00372,
+      "width": 1.14281,
+      "height": 0.27,
+      "area": 0.172489,
+      "seed": 0.417176
+    },
+    {
+      "index": 32,
+      "name": "global fracture mirror shard 032",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.83174,
+          0.92673
+        ],
+        [
+          -1.3251,
+          0.92734
+        ],
+        [
+          -1.0351,
+          1.29852
+        ],
+        [
+          -0.43378,
+          1.54147
+        ],
+        [
+          -0.47767,
+          1.18398
+        ]
+      ],
+      "center": [
+        -0.82068,
+        1.17561
+      ],
+      "depth": -0.07831,
+      "width": 0.89132,
+      "height": 0.61474,
+      "area": 0.285779,
+      "seed": 0.761846
+    },
+    {
+      "index": 33,
+      "name": "global fracture mirror shard 033",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.99621,
+          0.86659
+        ],
+        [
+          1.27926,
+          1.264
+        ],
+        [
+          2.27175,
+          1.54859
+        ]
+      ],
+      "center": [
+        1.84907,
+        1.2264
+      ],
+      "depth": -0.12008,
+      "width": 0.99249,
+      "height": 0.682,
+      "area": 0.29923,
+      "seed": 0.297902
+    },
+    {
+      "index": 34,
+      "name": "global fracture mirror shard 034",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          3.28534,
+          1.62206
+        ],
+        [
+          3.07133,
+          1.38702
+        ],
+        [
+          2.09193,
+          0.98876
+        ],
+        [
+          2.20828,
+          1.27675
+        ]
+      ],
+      "center": [
+        2.66422,
+        1.31865
+      ],
+      "depth": -0.13992,
+      "width": 1.19341,
+      "height": 0.6333,
+      "area": 0.207479,
+      "seed": 0.372082
+    },
+    {
+      "index": 35,
+      "name": "global fracture mirror shard 035",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.28997,
+          0.81755
+        ],
+        [
+          -0.50828,
+          2.01932
+        ],
+        [
+          -1.05846,
+          1.31511
+        ]
+      ],
+      "center": [
+        -1.28557,
+        1.38399
+      ],
+      "depth": 0.06657,
+      "width": 1.7817,
+      "height": 1.20177,
+      "area": 0.296743,
+      "seed": 0.892064
+    },
+    {
+      "index": 36,
+      "name": "global fracture mirror shard 036",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.36748,
+          1.03713
+        ],
+        [
+          0.0847,
+          1.54726
+        ],
+        [
+          0.35216,
+          1.74158
+        ],
+        [
+          1.19497,
+          1.2744
+        ]
+      ],
+      "center": [
+        0.49983,
+        1.40009
+      ],
+      "depth": -0.01804,
+      "width": 1.11026,
+      "height": 0.70445,
+      "area": 0.388975,
+      "seed": 0.124972
+    },
+    {
+      "index": 37,
+      "name": "global fracture mirror shard 037",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.19616,
+          1.26012
+        ],
+        [
+          -3.05534,
+          1.30157
+        ],
+        [
+          -1.77983,
+          1.71601
+        ]
+      ],
+      "center": [
+        -2.34378,
+        1.4259
+      ],
+      "depth": 0.01765,
+      "width": 1.27551,
+      "height": 0.45588,
+      "area": 0.204469,
+      "seed": 0.165012
+    },
+    {
+      "index": 38,
+      "name": "global fracture mirror shard 038",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.60281,
+          0.69284
+        ],
+        [
+          -0.35659,
+          2.17819
+        ],
+        [
+          -0.23976,
+          2.21615
+        ],
+        [
+          -2.34183,
+          0.79829
+        ]
+      ],
+      "center": [
+        -1.38524,
+        1.47137
+      ],
+      "depth": 0.08599,
+      "width": 2.36305,
+      "height": 1.52331,
+      "area": 0.118327,
+      "seed": 0.232458
+    },
+    {
+      "index": 39,
+      "name": "global fracture mirror shard 039",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.43355,
+          1.21251
+        ],
+        [
+          -0.39077,
+          1.56096
+        ],
+        [
+          -0.04527,
+          1.70055
+        ],
+        [
+          0.03611,
+          1.55374
+        ]
+      ],
+      "center": [
+        -0.20837,
+        1.50694
+      ],
+      "depth": 0.05068,
+      "width": 0.46966,
+      "height": 0.48804,
+      "area": 0.105568,
+      "seed": 0.792355
+    },
+    {
+      "index": 40,
+      "name": "global fracture mirror shard 040",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.401,
+          2.13334
+        ],
+        [
+          1.7299,
+          1.42445
+        ],
+        [
+          1.24528,
+          1.28549
+        ],
+        [
+          1.04811,
+          1.39479
+        ]
+      ],
+      "center": [
+        1.35607,
+        1.55952
+      ],
+      "depth": 0.0809,
+      "width": 0.68178,
+      "height": 0.84785,
+      "area": 0.286714,
+      "seed": 0.322989
+    },
+    {
+      "index": 41,
+      "name": "global fracture mirror shard 041",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -3.58131,
+          1.78898
+        ],
+        [
+          -3.39016,
+          1.82349
+        ],
+        [
+          -2.64677,
+          1.46715
+        ],
+        [
+          -3.58131,
+          1.1635
+        ]
+      ],
+      "center": [
+        -3.29989,
+        1.56078
+      ],
+      "depth": -0.11032,
+      "width": 0.93454,
+      "height": 0.65999,
+      "area": 0.33915,
+      "seed": 0.098855
+    },
+    {
+      "index": 42,
+      "name": "global fracture mirror shard 042",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          3.30697,
+          1.65105
+        ],
+        [
+          2.23079,
+          1.30602
+        ],
+        [
+          2.33753,
+          1.57021
+        ],
+        [
+          3.28712,
+          1.8425
+        ],
+        [
+          3.40741,
+          1.76136
+        ]
+      ],
+      "center": [
+        2.91396,
+        1.62623
+      ],
+      "depth": -0.07355,
+      "width": 1.17662,
+      "height": 0.53648,
+      "area": 0.228053,
+      "seed": 0.132824
+    },
+    {
+      "index": 43,
+      "name": "global fracture mirror shard 043",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.68457,
+          1.31983
+        ],
+        [
+          -2.00132,
+          1.42185
+        ],
+        [
+          -1.71108,
+          1.73966
+        ],
+        [
+          -0.41074,
+          2.16217
+        ]
+      ],
+      "center": [
+        -1.45193,
+        1.66088
+      ],
+      "depth": -0.06428,
+      "width": 1.59058,
+      "height": 0.84234,
+      "area": 0.343701,
+      "seed": 0.953678
+    },
+    {
+      "index": 44,
+      "name": "global fracture mirror shard 044",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.32493,
+          1.69723
+        ],
+        [
+          2.27793,
+          1.5809
+        ],
+        [
+          1.76963,
+          1.43515
+        ],
+        [
+          1.52878,
+          1.95426
+        ]
+      ],
+      "center": [
+        1.97532,
+        1.66689
+      ],
+      "depth": -0.08365,
+      "width": 0.79615,
+      "height": 0.51911,
+      "area": 0.201831,
+      "seed": 0.255613
+    },
+    {
+      "index": 45,
+      "name": "global fracture mirror shard 045",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -3.33425,
+          1.83376
+        ],
+        [
+          -2.26446,
+          2.02689
+        ],
+        [
+          -2.17856,
+          1.61954
+        ],
+        [
+          -2.601,
+          1.48228
+        ]
+      ],
+      "center": [
+        -2.59457,
+        1.74062
+      ],
+      "depth": -0.14526,
+      "width": 1.15569,
+      "height": 0.54461,
+      "area": 0.350749,
+      "seed": 0.340131
+    },
+    {
+      "index": 46,
+      "name": "global fracture mirror shard 046",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.15564,
+          1.6962
+        ],
+        [
+          1.01787,
+          1.40787
+        ],
+        [
+          0.2691,
+          1.82292
+        ],
+        [
+          1.00378,
+          2.11975
+        ]
+      ],
+      "center": [
+        0.8616,
+        1.76168
+      ],
+      "depth": -0.10782,
+      "width": 0.88654,
+      "height": 0.71188,
+      "area": 0.314662,
+      "seed": 0.280063
+    },
+    {
+      "index": 47,
+      "name": "global fracture mirror shard 047",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.01209,
+          1.34147
+        ],
+        [
+          -0.46526,
+          2.04138
+        ],
+        [
+          -0.3536,
+          2.11669
+        ],
+        [
+          -0.41939,
+          1.58093
+        ]
+      ],
+      "center": [
+        -0.56259,
+        1.77012
+      ],
+      "depth": -0.0019,
+      "width": 0.65849,
+      "height": 0.77523,
+      "area": 0.169381,
+      "seed": 0.686614
+    },
+    {
+      "index": 48,
+      "name": "global fracture mirror shard 048",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.31841,
+          1.76473
+        ],
+        [
+          0.0608,
+          1.57757
+        ],
+        [
+          -0.20322,
+          2.05388
+        ]
+      ],
+      "center": [
+        0.05866,
+        1.79873
+      ],
+      "depth": -0.08033,
+      "width": 0.52163,
+      "height": 0.47631,
+      "area": 0.086059,
+      "seed": 0.976081
+    },
+    {
+      "index": 49,
+      "name": "global fracture mirror shard 049",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          3.05143,
+          2.04667
+        ],
+        [
+          3.57919,
+          1.8752
+        ],
+        [
+          3.57919,
+          1.6907
+        ]
+      ],
+      "center": [
+        3.40327,
+        1.87086
+      ],
+      "depth": 0.01655,
+      "width": 0.52775,
+      "height": 0.35597,
+      "area": 0.048684,
+      "seed": 0.22729
+    },
+    {
+      "index": 50,
+      "name": "global fracture mirror shard 050",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.38964,
+          1.60464
+        ],
+        [
+          -0.32632,
+          2.12036
+        ],
+        [
+          -0.28597,
+          2.14758
+        ],
+        [
+          -0.05906,
+          1.7382
+        ]
+      ],
+      "center": [
+        -0.26525,
+        1.9027
+      ],
+      "depth": 0.09805,
+      "width": 0.33059,
+      "height": 0.54294,
+      "area": 0.092362,
+      "seed": 0.355737
+    },
+    {
+      "index": 51,
+      "name": "global fracture mirror shard 051",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.3328,
+          1.59684
+        ],
+        [
+          2.57509,
+          2.19653
+        ],
+        [
+          2.97549,
+          2.06643
+        ],
+        [
+          3.27229,
+          1.86624
+        ]
+      ],
+      "center": [
+        2.78892,
+        1.93151
+      ],
+      "depth": 0.07929,
+      "width": 0.93949,
+      "height": 0.59968,
+      "area": 0.269834,
+      "seed": 0.415969
+    },
+    {
+      "index": 52,
+      "name": "global fracture mirror shard 052",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -3.07789,
+          2.20751
+        ],
+        [
+          -3.29932,
+          1.87184
+        ],
+        [
+          -3.57908,
+          1.82133
+        ],
+        [
+          -3.57908,
+          1.92055
+        ]
+      ],
+      "center": [
+        -3.38384,
+        1.95531
+      ],
+      "depth": -0.02983,
+      "width": 0.50119,
+      "height": 0.38618,
+      "area": 0.066224,
+      "seed": 0.253348
+    },
+    {
+      "index": 53,
+      "name": "global fracture mirror shard 053",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.3504,
+          1.78958
+        ],
+        [
+          2.32394,
+          1.72411
+        ],
+        [
+          1.51201,
+          1.98624
+        ],
+        [
+          1.38302,
+          2.26425
+        ],
+        [
+          1.54442,
+          2.32946
+        ]
+      ],
+      "center": [
+        1.82276,
+        2.01873
+      ],
+      "depth": -0.08691,
+      "width": 0.96737,
+      "height": 0.60535,
+      "area": 0.203753,
+      "seed": 0.982764
+    },
+    {
+      "index": 54,
+      "name": "global fracture mirror shard 054",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.96213,
+          2.36802
+        ],
+        [
+          -1.09082,
+          1.9703
+        ],
+        [
+          -1.66907,
+          1.78241
+        ]
+      ],
+      "center": [
+        -1.57401,
+        2.04024
+      ],
+      "depth": 0.02135,
+      "width": 0.87131,
+      "height": 0.58561,
+      "area": 0.196844,
+      "seed": 0.718325
+    },
+    {
+      "index": 55,
+      "name": "global fracture mirror shard 055",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.38389,
+          2.16382
+        ],
+        [
+          1.17999,
+          1.73708
+        ],
+        [
+          1.03775,
+          2.13379
+        ],
+        [
+          1.34098,
+          2.2563
+        ]
+      ],
+      "center": [
+        1.23565,
+        2.07275
+      ],
+      "depth": 0.08164,
+      "width": 0.34614,
+      "height": 0.51923,
+      "area": 0.087446,
+      "seed": 0.569622
+    },
+    {
+      "index": 56,
+      "name": "global fracture mirror shard 056",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.32694,
+          2.52673
+        ],
+        [
+          -2.00011,
+          2.37754
+        ],
+        [
+          -1.70128,
+          1.7804
+        ],
+        [
+          -2.13954,
+          1.638
+        ]
+      ],
+      "center": [
+        -2.04197,
+        2.08067
+      ],
+      "depth": 0.02631,
+      "width": 0.62566,
+      "height": 0.88872,
+      "area": 0.283378,
+      "seed": 0.348652
+    },
+    {
+      "index": 57,
+      "name": "global fracture mirror shard 057",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -3.02085,
+          2.2374
+        ],
+        [
+          -2.38225,
+          2.60303
+        ],
+        [
+          -2.26766,
+          2.05959
+        ],
+        [
+          -3.25583,
+          1.88119
+        ]
+      ],
+      "center": [
+        -2.73165,
+        2.1953
+      ],
+      "depth": -0.04246,
+      "width": 0.98817,
+      "height": 0.72185,
+      "area": 0.34951,
+      "seed": 0.73786
+    },
+    {
+      "index": 58,
+      "name": "global fracture mirror shard 058",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.36719,
+          1.8071
+        ],
+        [
+          1.56653,
+          2.34341
+        ],
+        [
+          1.81774,
+          2.44491
+        ],
+        [
+          2.53122,
+          2.21309
+        ]
+      ],
+      "center": [
+        2.07067,
+        2.20213
+      ],
+      "depth": 0.00321,
+      "width": 0.96469,
+      "height": 0.63781,
+      "area": 0.271844,
+      "seed": 0.914269
+    },
+    {
+      "index": 59,
+      "name": "global fracture mirror shard 059",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.01556,
+          1.98266
+        ],
+        [
+          -0.21663,
+          2.09412
+        ],
+        [
+          -0.26331,
+          2.17832
+        ],
+        [
+          -0.17037,
+          2.241
+        ],
+        [
+          0.7557,
+          2.5419
+        ]
+      ],
+      "center": [
+        0.01797,
+        2.2076
+      ],
+      "depth": -0.12231,
+      "width": 1.01901,
+      "height": 0.55925,
+      "area": 0.165638,
+      "seed": 0.581945
+    },
+    {
+      "index": 60,
+      "name": "global fracture mirror shard 060",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.42456,
+          2.15667
+        ],
+        [
+          -1.06843,
+          2.52466
+        ],
+        [
+          -0.44627,
+          2.17979
+        ],
+        [
+          -1.04735,
+          1.98449
+        ]
+      ],
+      "center": [
+        -0.99665,
+        2.2114
+      ],
+      "depth": 0.0448,
+      "width": 0.97829,
+      "height": 0.54018,
+      "area": 0.264468,
+      "seed": 0.62422
+    },
+    {
+      "index": 61,
+      "name": "global fracture mirror shard 061",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.99995,
+          2.08949
+        ],
+        [
+          2.82001,
+          2.21087
+        ],
+        [
+          3.58092,
+          2.79127
+        ],
+        [
+          3.58092,
+          1.90072
+        ]
+      ],
+      "center": [
+        3.24545,
+        2.24809
+      ],
+      "depth": 0.02708,
+      "width": 0.76092,
+      "height": 0.89055,
+      "area": 0.357091,
+      "seed": 0.860649
+    },
+    {
+      "index": 62,
+      "name": "global fracture mirror shard 062",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.42278,
+          2.56097
+        ],
+        [
+          0.68365,
+          2.02396
+        ],
+        [
+          0.24964,
+          1.84861
+        ],
+        [
+          0.01984,
+          1.97599
+        ],
+        [
+          0.82474,
+          2.55963
+        ],
+        [
+          1.12582,
+          2.65746
+        ]
+      ],
+      "center": [
+        0.72108,
+        2.2711
+      ],
+      "depth": -0.12865,
+      "width": 1.40294,
+      "height": 0.80885,
+      "area": 0.41133,
+      "seed": 0.80443
+    },
+    {
+      "index": 63,
+      "name": "global fracture mirror shard 063",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.45416,
+          2.55575
+        ],
+        [
+          1.76285,
+          2.45545
+        ],
+        [
+          0.75646,
+          2.04884
+        ]
+      ],
+      "center": [
+        1.32449,
+        2.35335
+      ],
+      "depth": -0.05043,
+      "width": 1.00639,
+      "height": 0.50691,
+      "area": 0.113229,
+      "seed": 0.435456
+    },
+    {
+      "index": 64,
+      "name": "global fracture mirror shard 064",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.67459,
+          2.85773
+        ],
+        [
+          -0.33961,
+          2.25343
+        ],
+        [
+          -0.34068,
+          2.24477
+        ],
+        [
+          -0.37226,
+          2.20434
+        ],
+        [
+          -0.40616,
+          2.19333
+        ],
+        [
+          -0.83077,
+          2.42869
+        ]
+      ],
+      "center": [
+        -0.49401,
+        2.36372
+      ],
+      "depth": 0.03998,
+      "width": 0.49116,
+      "height": 0.66441,
+      "area": 0.140409,
+      "seed": 0.458052
+    },
+    {
+      "index": 65,
+      "name": "global fracture mirror shard 065",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.91601,
+          2.11225
+        ],
+        [
+          1.85073,
+          2.45838
+        ],
+        [
+          2.19602,
+          2.59789
+        ]
+      ],
+      "center": [
+        2.32092,
+        2.3895
+      ],
+      "depth": 0.014,
+      "width": 1.06528,
+      "height": 0.48564,
+      "area": 0.134066,
+      "seed": 0.046515
+    },
+    {
+      "index": 66,
+      "name": "global fracture mirror shard 066",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.46342,
+          2.17321
+        ],
+        [
+          -1.48769,
+          2.18429
+        ],
+        [
+          -1.93191,
+          2.8479
+        ],
+        [
+          -1.78958,
+          2.9294
+        ],
+        [
+          -1.101,
+          2.54771
+        ]
+      ],
+      "center": [
+        -1.55472,
+        2.5365
+      ],
+      "depth": 0.03876,
+      "width": 0.83091,
+      "height": 0.75618,
+      "area": 0.270798,
+      "seed": 0.077144
+    },
+    {
+      "index": 67,
+      "name": "global fracture mirror shard 067",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.52762,
+          2.19519
+        ],
+        [
+          -2.3299,
+          2.5614
+        ],
+        [
+          -2.34286,
+          2.62285
+        ],
+        [
+          -1.96046,
+          2.8418
+        ]
+      ],
+      "center": [
+        -2.04021,
+        2.55531
+      ],
+      "depth": 0.06744,
+      "width": 0.81524,
+      "height": 0.64661,
+      "area": 0.193293,
+      "seed": 0.368405
+    },
+    {
+      "index": 68,
+      "name": "global fracture mirror shard 068",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.24276,
+          2.94592
+        ],
+        [
+          0.64293,
+          2.8159
+        ],
+        [
+          -0.17405,
+          2.26483
+        ],
+        [
+          -0.32861,
+          2.21462
+        ]
+      ],
+      "center": [
+        0.09576,
+        2.56032
+      ],
+      "depth": -0.0471,
+      "width": 0.97154,
+      "height": 0.73131,
+      "area": 0.205544,
+      "seed": 0.003985
+    },
+    {
+      "index": 69,
+      "name": "global fracture mirror shard 069",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.0926,
+          2.67286
+        ],
+        [
+          -0.11085,
+          2.28183
+        ],
+        [
+          0.67165,
+          2.80964
+        ]
+      ],
+      "center": [
+        0.55113,
+        2.58811
+      ],
+      "depth": -0.02319,
+      "width": 1.20346,
+      "height": 0.5278,
+      "area": 0.164605,
+      "seed": 0.010915
+    },
+    {
+      "index": 70,
+      "name": "global fracture mirror shard 070",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -3.29721,
+          3.1244
+        ],
+        [
+          -2.49877,
+          2.57059
+        ],
+        [
+          -3.26954,
+          2.12927
+        ]
+      ],
+      "center": [
+        -3.02184,
+        2.60809
+      ],
+      "depth": -0.08212,
+      "width": 0.79845,
+      "height": 0.99512,
+      "area": 0.389615,
+      "seed": 0.064228
+    },
+    {
+      "index": 71,
+      "name": "global fracture mirror shard 071",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.60193,
+          2.35791
+        ],
+        [
+          2.21984,
+          2.61564
+        ],
+        [
+          2.80091,
+          2.85041
+        ]
+      ],
+      "center": [
+        2.54089,
+        2.60799
+      ],
+      "depth": -0.14454,
+      "width": 0.58108,
+      "height": 0.4925,
+      "area": 0.119732,
+      "seed": 0.186521
+    },
+    {
+      "index": 72,
+      "name": "global fracture mirror shard 072",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.14779,
+          2.61909
+        ],
+        [
+          1.80653,
+          2.48122
+        ],
+        [
+          1.50225,
+          2.58008
+        ],
+        [
+          1.84087,
+          2.82611
+        ]
+      ],
+      "center": [
+        1.82436,
+        2.62663
+      ],
+      "depth": -0.0972,
+      "width": 0.64554,
+      "height": 0.34489,
+      "area": 0.110652,
+      "seed": 0.139853
+    },
+    {
+      "index": 73,
+      "name": "global fracture mirror shard 073",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -3.33222,
+          3.09925
+        ],
+        [
+          -3.30606,
+          2.15827
+        ],
+        [
+          -3.57974,
+          2.00157
+        ],
+        [
+          -3.57974,
+          3.27093
+        ]
+      ],
+      "center": [
+        -3.44944,
+        2.6325
+      ],
+      "depth": -0.05146,
+      "width": 0.27368,
+      "height": 1.26936,
+      "area": 0.287909,
+      "seed": 0.000673
+    },
+    {
+      "index": 74,
+      "name": "global fracture mirror shard 074",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.80289,
+          2.23084
+        ],
+        [
+          2.62999,
+          2.34746
+        ],
+        [
+          2.83916,
+          2.86518
+        ],
+        [
+          3.57818,
+          3.16376
+        ],
+        [
+          3.57818,
+          2.8222
+        ]
+      ],
+      "center": [
+        3.08568,
+        2.68589
+      ],
+      "depth": -0.0282,
+      "width": 0.94819,
+      "height": 0.93293,
+      "area": 0.41834,
+      "seed": 0.767275
+    },
+    {
+      "index": 75,
+      "name": "global fracture mirror shard 075",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.91209,
+          2.91719
+        ],
+        [
+          1.4662,
+          2.59323
+        ],
+        [
+          1.19062,
+          2.68277
+        ]
+      ],
+      "center": [
+        1.52297,
+        2.73106
+      ],
+      "depth": 0.09824,
+      "width": 0.72147,
+      "height": 0.32396,
+      "area": 0.064601,
+      "seed": 0.29169
+    },
+    {
+      "index": 76,
+      "name": "global fracture mirror shard 076",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.21957,
+          2.95521
+        ],
+        [
+          -0.30602,
+          2.28249
+        ],
+        [
+          -0.20643,
+          3.09363
+        ]
+      ],
+      "center": [
+        -0.09763,
+        2.77711
+      ],
+      "depth": 0.04331,
+      "width": 0.52559,
+      "height": 0.81114,
+      "area": 0.179663,
+      "seed": 0.210697
+    },
+    {
+      "index": 77,
+      "name": "global fracture mirror shard 077",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.48186,
+          3.09583
+        ],
+        [
+          -0.76328,
+          2.77931
+        ],
+        [
+          -0.881,
+          2.45594
+        ],
+        [
+          -2.22777,
+          3.20247
+        ]
+      ],
+      "center": [
+        -1.33848,
+        2.88339
+      ],
+      "depth": 0.08913,
+      "width": 1.46449,
+      "height": 0.74653,
+      "area": 0.341433,
+      "seed": 0.330586
+    },
+    {
+      "index": 78,
+      "name": "global fracture mirror shard 078",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.74329,
+          2.89047
+        ],
+        [
+          1.14619,
+          2.69646
+        ],
+        [
+          0.72081,
+          2.83467
+        ],
+        [
+          1.27341,
+          3.20741
+        ]
+      ],
+      "center": [
+        1.22093,
+        2.90725
+      ],
+      "depth": -0.13219,
+      "width": 1.02248,
+      "height": 0.51095,
+      "area": 0.257669,
+      "seed": 0.133673
+    },
+    {
+      "index": 79,
+      "name": "global fracture mirror shard 079",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.23499,
+          3.1066
+        ],
+        [
+          -0.33493,
+          2.29266
+        ],
+        [
+          -0.90716,
+          3.325
+        ]
+      ],
+      "center": [
+        -0.49236,
+        2.90808
+      ],
+      "depth": 0.00289,
+      "width": 0.67217,
+      "height": 1.03234,
+      "area": 0.284465,
+      "seed": 0.860166
+    },
+    {
+      "index": 80,
+      "name": "global fracture mirror shard 080",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.95093,
+          3.25282
+        ],
+        [
+          2.80068,
+          2.88094
+        ],
+        [
+          2.19753,
+          2.63726
+        ],
+        [
+          1.87627,
+          2.85395
+        ],
+        [
+          2.0,
+          2.94385
+        ]
+      ],
+      "center": [
+        2.36508,
+        2.91376
+      ],
+      "depth": -0.05296,
+      "width": 1.07465,
+      "height": 0.61556,
+      "area": 0.297974,
+      "seed": 0.194194
+    },
+    {
+      "index": 81,
+      "name": "global fracture mirror shard 081",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.39561,
+          3.08405
+        ],
+        [
+          -0.76287,
+          2.99359
+        ],
+        [
+          -0.71433,
+          2.90601
+        ],
+        [
+          -0.75262,
+          2.80082
+        ]
+      ],
+      "center": [
+        -0.90636,
+        2.94612
+      ],
+      "depth": 0.10103,
+      "width": 0.68129,
+      "height": 0.28323,
+      "area": 0.064755,
+      "seed": 0.674626
+    },
+    {
+      "index": 82,
+      "name": "global fracture mirror shard 082",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.58772,
+          3.36881
+        ],
+        [
+          -2.58428,
+          3.37044
+        ],
+        [
+          -1.83219,
+          2.95355
+        ],
+        [
+          -2.46645,
+          2.5904
+        ],
+        [
+          -2.64339,
+          2.71312
+        ]
+      ],
+      "center": [
+        -2.42281,
+        2.99926
+      ],
+      "depth": 0.07678,
+      "width": 0.81119,
+      "height": 0.78004,
+      "area": 0.331631,
+      "seed": 0.785463
+    },
+    {
+      "index": 83,
+      "name": "global fracture mirror shard 083",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.61592,
+          3.36156
+        ],
+        [
+          -2.66979,
+          2.72689
+        ],
+        [
+          -3.19117,
+          3.08851
+        ]
+      ],
+      "center": [
+        -2.82563,
+        3.05898
+      ],
+      "depth": -0.03205,
+      "width": 0.57525,
+      "height": 0.63467,
+      "area": 0.175192,
+      "seed": 0.704742
+    },
+    {
+      "index": 84,
+      "name": "global fracture mirror shard 084",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.22703,
+          3.40047
+        ],
+        [
+          2.28751,
+          3.18657
+        ],
+        [
+          1.97854,
+          2.96209
+        ],
+        [
+          1.80119,
+          2.90447
+        ],
+        [
+          1.75432,
+          2.93608
+        ]
+      ],
+      "center": [
+        2.00972,
+        3.07794
+      ],
+      "depth": -0.1261,
+      "width": 0.53319,
+      "height": 0.496,
+      "area": 0.089899,
+      "seed": 0.259474
+    },
+    {
+      "index": 85,
+      "name": "global fracture mirror shard 085",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.24509,
+          3.22907
+        ],
+        [
+          0.67977,
+          2.84775
+        ],
+        [
+          0.27589,
+          2.97898
+        ],
+        [
+          0.73833,
+          3.57089
+        ]
+      ],
+      "center": [
+        0.73477,
+        3.15667
+      ],
+      "depth": -0.12994,
+      "width": 0.96921,
+      "height": 0.72313,
+      "area": 0.34311,
+      "seed": 0.885817
+    },
+    {
+      "index": 86,
+      "name": "global fracture mirror shard 086",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.85864,
+          2.90178
+        ],
+        [
+          3.00763,
+          3.27054
+        ],
+        [
+          3.5766,
+          3.45541
+        ],
+        [
+          3.5766,
+          3.19185
+        ]
+      ],
+      "center": [
+        3.25487,
+        3.2049
+      ],
+      "depth": -0.12683,
+      "width": 0.71797,
+      "height": 0.55364,
+      "area": 0.185751,
+      "seed": 0.520441
+    },
+    {
+      "index": 87,
+      "name": "global fracture mirror shard 087",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -1.64921,
+          3.56966
+        ],
+        [
+          -0.95723,
+          3.34482
+        ],
+        [
+          -0.77956,
+          3.02429
+        ],
+        [
+          -1.57574,
+          3.1381
+        ]
+      ],
+      "center": [
+        -1.24044,
+        3.26922
+      ],
+      "depth": -0.10413,
+      "width": 0.86965,
+      "height": 0.54537,
+      "area": 0.258545,
+      "seed": 0.385487
+    },
+    {
+      "index": 88,
+      "name": "global fracture mirror shard 088",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.22332,
+          3.42936
+        ],
+        [
+          1.73356,
+          2.94822
+        ],
+        [
+          1.30617,
+          3.2365
+        ],
+        [
+          2.12222,
+          3.78694
+        ]
+      ],
+      "center": [
+        1.84632,
+        3.35026
+      ],
+      "depth": -0.12994,
+      "width": 0.91716,
+      "height": 0.83872,
+      "area": 0.347139,
+      "seed": 0.800363
+    },
+    {
+      "index": 89,
+      "name": "global fracture mirror shard 089",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.97684,
+          3.28545
+        ],
+        [
+          2.03411,
+          2.97914
+        ],
+        [
+          3.19338,
+          3.8214
+        ]
+      ],
+      "center": [
+        2.73478,
+        3.362
+      ],
+      "depth": 0.08775,
+      "width": 1.15927,
+      "height": 0.84226,
+      "area": 0.219465,
+      "seed": 0.716546
+    },
+    {
+      "index": 90,
+      "name": "global fracture mirror shard 090",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.52329,
+          3.71161
+        ],
+        [
+          0.70877,
+          3.5865
+        ],
+        [
+          0.24465,
+          2.99245
+        ],
+        [
+          -0.19309,
+          3.13469
+        ],
+        [
+          -0.14063,
+          3.56194
+        ]
+      ],
+      "center": [
+        0.2286,
+        3.39744
+      ],
+      "depth": 0.08054,
+      "width": 0.90186,
+      "height": 0.71915,
+      "area": 0.399249,
+      "seed": 0.108934
+    },
+    {
+      "index": 91,
+      "name": "global fracture mirror shard 091",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.43481,
+          3.82106
+        ],
+        [
+          -1.70207,
+          3.58297
+        ],
+        [
+          -1.62748,
+          3.14484
+        ],
+        [
+          -2.28171,
+          3.23837
+        ],
+        [
+          -2.41489,
+          3.31219
+        ]
+      ],
+      "center": [
+        -2.09219,
+        3.41988
+      ],
+      "depth": 0.0835,
+      "width": 0.80733,
+      "height": 0.67621,
+      "area": 0.368235,
+      "seed": 0.70312
+    },
+    {
+      "index": 92,
+      "name": "global fracture mirror shard 092",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.62628,
+          3.39279
+        ],
+        [
+          -3.22216,
+          3.10996
+        ],
+        [
+          -3.58207,
+          3.3596
+        ],
+        [
+          -3.58207,
+          3.92259
+        ]
+      ],
+      "center": [
+        -3.25315,
+        3.44624
+      ],
+      "depth": -0.08429,
+      "width": 0.95579,
+      "height": 0.81263,
+      "area": 0.394326,
+      "seed": 0.588987
+    },
+    {
+      "index": 93,
+      "name": "global fracture mirror shard 093",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.99912,
+          3.71028
+        ],
+        [
+          2.32462,
+          3.22023
+        ],
+        [
+          2.17693,
+          3.74257
+        ]
+      ],
+      "center": [
+        2.50022,
+        3.55769
+      ],
+      "depth": 0.03719,
+      "width": 0.82219,
+      "height": 0.52235,
+      "area": 0.212349,
+      "seed": 0.581899
+    },
+    {
+      "index": 94,
+      "name": "global fracture mirror shard 094",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.12079,
+          4.02413
+        ],
+        [
+          -0.22796,
+          3.1513
+        ],
+        [
+          -0.72286,
+          3.31211
+        ],
+        [
+          -0.31989,
+          4.02413
+        ]
+      ],
+      "center": [
+        -0.34788,
+        3.62792
+      ],
+      "depth": 0.11242,
+      "width": 0.60207,
+      "height": 0.87283,
+      "area": 0.295482,
+      "seed": 0.395031
+    },
+    {
+      "index": 95,
+      "name": "global fracture mirror shard 095",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          1.27228,
+          3.25621
+        ],
+        [
+          1.27053,
+          3.25503
+        ],
+        [
+          0.76154,
+          3.59835
+        ],
+        [
+          1.09634,
+          4.02687
+        ],
+        [
+          1.36804,
+          4.02687
+        ]
+      ],
+      "center": [
+        1.15375,
+        3.63266
+      ],
+      "depth": -0.06122,
+      "width": 0.60649,
+      "height": 0.77183,
+      "area": 0.271995,
+      "seed": 0.453629
+    },
+    {
+      "index": 96,
+      "name": "global fracture mirror shard 096",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.74607,
+          3.32392
+        ],
+        [
+          -0.79189,
+          3.33881
+        ],
+        [
+          -0.72394,
+          4.02037
+        ],
+        [
+          -0.35192,
+          4.02037
+        ]
+      ],
+      "center": [
+        -0.65345,
+        3.67587
+      ],
+      "depth": -0.11905,
+      "width": 0.43997,
+      "height": 0.69645,
+      "area": 0.145665,
+      "seed": 0.560616
+    },
+    {
+      "index": 97,
+      "name": "global fracture mirror shard 097",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.81954,
+          3.33857
+        ],
+        [
+          -0.93473,
+          3.37599
+        ],
+        [
+          -1.29478,
+          4.02553
+        ],
+        [
+          -0.75106,
+          4.02553
+        ]
+      ],
+      "center": [
+        -0.95003,
+        3.69141
+      ],
+      "depth": -0.10607,
+      "width": 0.54372,
+      "height": 0.68696,
+      "area": 0.21743,
+      "seed": 0.964676
+    },
+    {
+      "index": 98,
+      "name": "global fracture mirror shard 098",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          3.58351,
+          3.4943
+        ],
+        [
+          3.01897,
+          3.31087
+        ],
+        [
+          3.23441,
+          3.8441
+        ],
+        [
+          3.48866,
+          4.02883
+        ],
+        [
+          3.58351,
+          4.02883
+        ]
+      ],
+      "center": [
+        3.38181,
+        3.74139
+      ],
+      "depth": 0.12491,
+      "width": 0.56455,
+      "height": 0.71796,
+      "area": 0.232822,
+      "seed": 0.044679
+    },
+    {
+      "index": 99,
+      "name": "global fracture mirror shard 099",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -0.9716,
+          3.38005
+        ],
+        [
+          -1.43114,
+          3.52936
+        ],
+        [
+          -2.06876,
+          4.03085
+        ],
+        [
+          -1.33234,
+          4.03085
+        ]
+      ],
+      "center": [
+        -1.45096,
+        3.74278
+      ],
+      "depth": 0.09309,
+      "width": 1.09716,
+      "height": 0.6508,
+      "area": 0.307254,
+      "seed": 0.873185
+    },
+    {
+      "index": 100,
+      "name": "global fracture mirror shard 100",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          2.44236,
+          4.03433
+        ],
+        [
+          1.30431,
+          3.26671
+        ],
+        [
+          1.39969,
+          4.03433
+        ]
+      ],
+      "center": [
+        1.71545,
+        3.77846
+      ],
+      "depth": -0.13456,
+      "width": 1.13805,
+      "height": 0.76762,
+      "area": 0.400188,
+      "seed": 0.057251
+    },
+    {
+      "index": 101,
+      "name": "global fracture mirror shard 101",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.48589,
+          3.84304
+        ],
+        [
+          -2.46603,
+          3.33574
+        ],
+        [
+          -3.57074,
+          3.94809
+        ],
+        [
+          -3.57074,
+          4.036
+        ],
+        [
+          -3.07977,
+          4.036
+        ]
+      ],
+      "center": [
+        -3.03463,
+        3.83977
+      ],
+      "depth": 0.01777,
+      "width": 1.1047,
+      "height": 0.70026,
+      "area": 0.369179,
+      "seed": 0.159539
+    },
+    {
+      "index": 102,
+      "name": "global fracture mirror shard 102",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.49444,
+          3.74135
+        ],
+        [
+          -0.13921,
+          3.5985
+        ],
+        [
+          -0.08603,
+          4.03164
+        ],
+        [
+          0.06406,
+          4.03164
+        ]
+      ],
+      "center": [
+        0.08331,
+        3.85078
+      ],
+      "depth": -0.02711,
+      "width": 0.63365,
+      "height": 0.43314,
+      "area": 0.155217,
+      "seed": 0.220723
+    },
+    {
+      "index": 103,
+      "name": "global fracture mirror shard 103",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          -2.12105,
+          4.03433
+        ],
+        [
+          -1.50422,
+          3.5492
+        ],
+        [
+          -2.99731,
+          4.03433
+        ]
+      ],
+      "center": [
+        -2.20752,
+        3.87262
+      ],
+      "depth": 0.11362,
+      "width": 1.49309,
+      "height": 0.48514,
+      "area": 0.212554,
+      "seed": 0.274709
+    },
+    {
+      "index": 104,
+      "name": "global fracture mirror shard 104",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          3.00526,
+          3.74433
+        ],
+        [
+          2.20453,
+          3.77578
+        ],
+        [
+          2.19313,
+          3.81612
+        ],
+        [
+          2.50757,
+          4.02821
+        ],
+        [
+          3.39599,
+          4.02821
+        ]
+      ],
+      "center": [
+        2.6613,
+        3.87853
+      ],
+      "depth": 0.07146,
+      "width": 1.20286,
+      "height": 0.28388,
+      "area": 0.239482,
+      "seed": 0.317173
+    },
+    {
+      "index": 105,
+      "name": "global fracture mirror shard 105",
+      "variant": "diagonal_shear",
+      "points": [
+        [
+          0.72882,
+          3.62406
+        ],
+        [
+          0.12056,
+          4.03433
+        ],
+        [
+          1.04936,
+          4.03433
+        ]
+      ],
+      "center": [
+        0.63291,
+        3.89757
+      ],
+      "depth": -0.05236,
+      "width": 0.9288,
+      "height": 0.41028,
+      "area": 0.190533,
+      "seed": 0.436484
+    }
+  ]
+}
