@@ -49,7 +49,7 @@
         landing-page
         xrextras-loading
         xrextras-runtime-error
-        renderer="colorManagement: false"
+        renderer="colorManagement: true"
         no-frustrum-cull
         xrweb="allowedDevices: any; disableWorldTracking: false"
 >
@@ -67,46 +67,52 @@
                 position="0 8 8">
         </a-camera>
 
-        <a-entity
+    <a-entity light="type: ambient; intensity: 10"></a-entity>
+
+<a-entity
                 light="
                     type: directional;
-                    intensity: 2;
+                    intensity: 1;
                     castShadow: true;
-                    shadowMapHeight:2048;
-                    shadowMapWidth:2048;
+                    shadowMapHeight:4096;
+                    shadowMapWidth:4096;
                     shadowCameraTop: 80;
                     shadowCameraBottom: -80;
                     shadowCameraRight: 80;
                     shadowCameraLeft: -80;
                     target: #group;
-                    shadowRadius: 12"
-                xrextras-attach="target: group; offset: 1 50 15;"
+                    shadowRadius: 80"
+                xrextras-attach="target: group; offset: 0 50 1;"
                 shadow>
-        </a-entity>
+</a-entity>
 
-        <a-light type="ambient" intensity="1"></a-light>
+
+
 
 
     <!-- example 3D model (fish) -->
         <a-entity
                 gltf-model="#Rosa"
+                unlit-materials
                 scale="12 12 12"
                 rotation="0 0 0"
                 position="0 0 -30"
-                animation-mixer="timeScale: 1.1"
                 shadow>
+            <a-entity id="group" position="0 0 0"></a-entity>
         </a-entity>
 
     <!-- example primitive (plane) as ground -->
+
         <a-plane
                 id="ground"
                 rotation="-90 0 0"
                 position="-50 0 -50"
                 width="500"
                 height="500"
-                material="shader: shadow"
+                material="shader: shadow; opacity: 0.3; transparent: true"
                 shadow
         ></a-plane>
+
 
 
     <!-- example Image Tracking -->
