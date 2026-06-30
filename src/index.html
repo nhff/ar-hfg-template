@@ -57,7 +57,7 @@
 
     <!-- We can define assets here to be loaded when A-Frame initializes -->
     <a-assets>
-        <a-asset-item id="fish-1" src="assets/fish1.glb"></a-asset-item>
+        <a-asset-item id="Wand1" src="assets/Wand1.glb"></a-asset-item>
         <img id="jelly-thumb" src="assets/video-target.jpg">
         <video id="jelly-video" autoplay muted crossorigin="anonymous" loop="true" src="assets/jellyfish-video.mp4"></video>
     </a-assets>
@@ -91,11 +91,10 @@
 
     <!-- example 3D model (fish) -->
         <a-entity
-                gltf-model="#fish-1"
-                scale="14 14 -14"
-                rotation="0 90 0"
-                position="-4 18 -12"
-                animation-mixer="timeScale: 1.1"
+                gltf-model="#Wand1"
+                scale="25 25 25"
+                rotation="0 0 0"
+                position="0 -25 -75"
                 shadow>
         </a-entity>
 
@@ -112,6 +111,7 @@
 
 
     <!-- example Image Tracking -->
+
     <xrextras-named-image-target name="video-target">
         <a-entity xrextras-play-video="video: #jelly-video; thumb: #jelly-thumb; canstop: true"
                   geometry="primitive: plane; height: 1; width: 0.79;"></a-entity>
