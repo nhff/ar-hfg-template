@@ -35,6 +35,40 @@ AFRAME.registerComponent('alpha-test', {
   },
 })
 
+// Replaces every material on a loaded gltf-model with A-Frame's standard
+// material (THREE.MeshStandardMaterial, the same PBR shader A-Frame's built-in
+// `material` component uses by default). We traverse the loaded model because
+// the built-in `material` component does not affect GLTF-embedded materials.
+AFRAME.registerComponent('standard-material', {
+  init() {
+    const applyStandardMaterial = () => {
+      this.el.object3D.traverse((object) => {
+        if (object.material) {
+          const materials = Array.isArray(object.material) ? object.material : [object.material]
+          object.material = materials.map((material) => {
+            const standard = new THREE.MeshStandardMaterial()
+            // Carry over the source texture/color so the model still looks right.
+            if (material.map) standard.map = material.map
+            if (material.color) standard.color.copy(material.color)
+            standard.transparent = material.transparent
+            standard.alphaTest = material.alphaTest
+            standard.side = material.side
+            standard.needsUpdate = true
+            return standard
+          })
+          if (!Array.isArray(object.material)) {
+            object.material = object.material[0]
+          }
+        }
+      })
+    }
+    if (this.el.getObject3D('mesh')) {
+      applyStandardMaterial()
+    }
+    this.el.addEventListener('model-loaded', applyStandardMaterial)
+  },
+})
+
 AFRAME.registerComponent('no-frustrum-cull', {
   init() {
     const models = this.el.querySelectorAll('[gltf-model]')
