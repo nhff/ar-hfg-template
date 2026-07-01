@@ -44,8 +44,9 @@ AFRAME.registerComponent('standard-material', {
     const applyStandardMaterial = () => {
       this.el.object3D.traverse((object) => {
         if (object.material) {
-          const materials = Array.isArray(object.material) ? object.material : [object.material]
-          object.material = materials.map((material) => {
+          const wasArray = Array.isArray(object.material)
+          const materials = wasArray ? object.material : [object.material]
+          const converted = materials.map((material) => {
             const standard = new THREE.MeshStandardMaterial()
             // Carry over the source texture/color so the model still looks right.
             if (material.map) standard.map = material.map
@@ -56,9 +57,10 @@ AFRAME.registerComponent('standard-material', {
             standard.needsUpdate = true
             return standard
           })
-          if (!Array.isArray(object.material)) {
-            object.material = object.material[0]
-          }
+          // Preserve the original shape: a single-material mesh must keep a
+          // single material, not a one-element array (three.js only renders
+          // array materials against matching geometry groups).
+          object.material = wasArray ? converted : converted[0]
         }
       })
     }
