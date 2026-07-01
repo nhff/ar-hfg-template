@@ -51,7 +51,7 @@ AFRAME.registerComponent('standard-material', {
             // Carry over the source texture/color so the model still looks right.
             if (material.map) standard.map = material.map
             if (material.color) standard.color.copy(material.color)
-            standard.transparent = material.transparent
+            standard.transparent = true
             standard.alphaTest = material.alphaTest
             standard.side = material.side
             standard.needsUpdate = true
